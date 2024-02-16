@@ -29,16 +29,21 @@ img {
 }
 
 #hbar ul {
-  list-style-type: none;
+  list-style-type: inline-block;
   margin: 0;
   padding: 0;
-}
-
-#hbar li {
-  display: inline;
 }
 
 #hbar a {
   margin-left: 75px;
   margin-right: 75px;
 }
+
+#hbar ul {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+
+
+
